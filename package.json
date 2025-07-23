@@ -1,0 +1,28 @@
+{
+  "name": "microbundles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A collection of micro frontends and libraries for building modular applications",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*", 
+    "applications/*"
+  ],
+  "scripts": {
+    "build": "lerna run build --stream",
+    "test": "lerna run test --stream",
+    "lint": "lerna run lint --stream",
+    "clean": "lerna clean --yes",
+    "bootstrap": "lerna bootstrap",
+    "version": "lerna version --conventional-commits --yes"
+  },
+  "dependencies": {
+    "lerna": "^6.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  }
+}
