@@ -1,5 +1,5 @@
 {
-  "name": "microbundle1",
+  "name": "microbundle2",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
@@ -36,10 +36,8 @@
     "react-native-safe-area-context": "5.4.0",
     "react-native-screens": "~4.11.1",
     "react-native-web": "~0.20.0",
-    "react-native-webview": "13.13.5", 
-    "divi": "1.0.0",
-    "soma": "1.0.0",
-    "multi": "1.0.0", 
+    "react-native-webview": "13.13.5",
+    "multi": "1.0.0",
     "exportResult": "1.0.0"
   },
   "devDependencies": {
